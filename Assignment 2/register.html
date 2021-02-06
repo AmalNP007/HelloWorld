@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<title>register us</title>
+   	<link rel="stylesheet" href="css/mystyle.css">
+   	<script src="js/email_list.js"></script>
+</head>
+<body background="images/img2.jpg">
+    <main>
+	  <h1 id="main">Register here</h1>
+	 <nav id="top">	
+  <ul id="right"> 
+    <li><a href="index.html">Home</a></li> 
+    <li><a href="about.html">About Us</a></li> 
+    <li><a href="services.html">Services</a></li> 
+    <li><a href="register.html">Register</a></li> 
+    <li><a href="contact.html">Contact Us</a></li> 
+  <ul> 
+</nav><br><br><br>
+       
+        <form id="email_form" name="email_form" action="join.html" method="get">
+	        
+			<label for="first_name">First Name</label>
+	        <input type="text" id="first_name" name="first_name">
+	        <span id="first_name_error">*</span><br>
+			
+			<label for="last_name">Last Name</label>
+	        <input type="text" id="last_name" name="last_name">
+	        <span id="last_name_error">*</span><br>
+			
+			<label for="email_address1">Email Address:</label>
+	        <input type="text" id="email_address1" name="email_address1">
+	        <span id="email_address1_error">*</span><br>
+	        
+	        <label for="email_address2">Confirm Email Address:</label>
+	        <input type="text" id="email_address2" name="email_address2">
+	        <span id="email_address2_error">*</span><br><br><br>
+	        
+	           
+	        <label>&nbsp;</label>
+	        <input type="button" id="join_list" value="Join our List">
+	        
+			<label></label>
+		<input type="button" id="clear" value="Clear Entries" onclick="resetForm"  ondblclick="emptyRate"><br>
+			</form>
+    </main>
+</body>
+</html>

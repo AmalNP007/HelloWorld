@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 970px;
+  
+   
+}
+nav{float:right;}
+nav ul li{
+display:inline-block;
+
+  
+  padding: .2em .7em;
+}
+nav ul:hover {
+  background-color: #ddd;
+  color: black;
+}
+nav ul.active {
+  background-color: #ff5e5e;
+  color: white;
+
+}
+
+nav ul {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.T1{ text-align:center;}
+
+.T{  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;}
+.contact{text-align:center;}
+.contact1{ padding: 270px 0;}  
+#main{ margin-bottom: .5em;
+      font-family:"Impact, Charcoal, sans-serif";
+	  text-align:center;
+	  margin-bottom:.5em;	
+}
+label {
+	float: left;
+    width: 11em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+span {
+	color: red;
+}
+#email_form{ 
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  }
+
